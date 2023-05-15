@@ -40,7 +40,7 @@ def sentiment_analysis(text):
 app = gr.Interface(fn = sentiment_analysis,
                    inputs = gr.Textbox("Write your text or tweet here"),
                    outputs = "label",
-                   title = "NLP Sentiment Analysis - Zindi Challenge",
+                   title = "Twitter Sentiment Analyzer",
                    description  = "Vaccinate or Do Not Vaccinate",
                    interpretation = "default",
                    examples = [["Being vaccinated is actually awesome :)"]]
